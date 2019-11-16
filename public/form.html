@@ -1,22 +1,61 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Rock Paper Scissors Form</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-</head>
-<body>
-	<form action="/game" method="get">
-		Enter your name: <input type="text" name="username"><br>
-		<span class="testClass">Choose your weapon: </span>
-		<select name="player_choice">
-			<option value="rock">Rock</option>
-			<option value="paper">Paper</option>
-			<option value="scissors">Scissors</option>
-		</select>
+<html lang="en">
 
-		<br>
-		<input type="submit" value="Play">
-	</form>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+
+
+    </script>
+
+    <fieldset>
+        <form method="get" action="/form">
+            Weight<input type="text" name="weight"><br>
+            <select name="type">
+                <option value="lstamped">Letter (stamped)</option>
+                <option value="lmetered">Letter (metered)</option>
+                <option value="flats">Flats</option>
+                <option value="firstclass">First Class Package Service</option>
+            </select>
+            <select name="rates"  >
+                <option value=".55">1 - 1.99 oz.</option>
+                <option value=".70">2 - 2.99 oz.</option>
+                <option value=".85">3 - 3.49 oz.</option>
+                <option value="1.00">3.5 oz. or above`</option>
+            </select>
+            <select name="rates">
+                <option value=".50">1 - 1.99 oz.</option>
+                <option value=".65">2 - 2.99 oz.</option>
+                <option value=".80">3 - 3.49 oz.</option>
+                <option value=".95">3.5 oz. or above`</option>
+            </select>
+            <select name="rates">
+                <option value="1.00">under 1oz.</option>
+                <option value="1.15">1 - 1.99 oz.</option>
+                <option value="1.30">2 - 2.99 oz.</option>
+                <option value="1.45">3 - 3.99 oz.</option>
+                <option value="1.60">4 - 4.99 oz.</option>
+                <option value="1.75">5 - 5.99 oz.</option>
+                <option value="1.90">6 - 6.99 oz.</option>
+                <option value="2.05">7 - 7.99 oz.</option>
+                <option value="2.20">8 - 8.99 oz.</option>
+                <option value="2.35">9 - 9.99 oz.</option>
+                <option value="2.50">10 - 10.99 oz.</option>
+                <option value="2.65">11 - 11.99 oz.</option>
+                <option value="2.80">12 - 12.99 oz.</option>
+            </select>
+
+            <button type="submit">Calculate</button>
+        </form>
+    </fieldset>
 
 </body>
+
 </html>
