@@ -5,8 +5,8 @@ body {
 
 #header {
     margin: 0;
-    padding: 15px;
-    background-color: grey;
+    padding: 18px;
+    background-color: pink;
 }
 
 header {
@@ -14,9 +14,9 @@ header {
 }
 
 .answer {
-    margin: 5% 20%;
-    font-style: oblique;
-    font-size: 150%;
+    margin: 4.5% 25%;
+    font-style: verdana;
+    font-size: 172%;
     
 }
 
