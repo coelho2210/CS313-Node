@@ -10,5 +10,6 @@ express()
   .get('/', (req, res) => {
     res.sendFile("weight.html", {root:__dirname + "/public/html"})
   })
+  
   .get('/result', engine.getParams)
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
