@@ -8,7 +8,7 @@ express()
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'ejs')
   .get('/', (req, res) => {
-    res.sendFile("weight.html", {root:__dirname + "/public/html"})
+    res.sendFile("form.html", {root:__dirname + "/public/html"})
   })
   
   .get('/result', engine.getParams)
