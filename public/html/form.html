@@ -9,20 +9,23 @@
 </head>
 <body>
     <script src="/html/validation.js"></script>
-    <div id="header"><header><h1> Welcome to my UPS Letter Services page</h1></header></div>
+    <div class="center">
+    <div id="header"><header><h1> Welcome to my USPS Letter Services</h1></header></div>
     <div class="answer">
     <form action="/result" method="get" onsubmit="return validate()">
         <p id="bad"></p>
-        <input type="text" name="weight" placeholder="Weight" id="wt">
+        <input type="text" name="weight" placeholder="Weight" id="wt"><br>
         <select name="type">
             <option>--Select--</option>
             <option value="letterStamped">Letter (Stamped)</option>
             <option value="letterMetered">Letter (Metered)</option>
             <option value="leFlats">Large Envelope (Flats)</option>
             <option value="firstClass">First-Class Package Service—Retail</option>
-        </select>
+        </select><br>
         <input type="submit" value="Submit">
     </form>
     </div>
+    </div>
+    
 </body>
 </html>

@@ -6,15 +6,23 @@ body {
 #header {
     margin: 0;
     padding: 18px;
-    background-color: pink;
+    background-color: black;
+    color:white;
 }
 
-header {
+.center {
     margin: 0;
+    font-size: large;
+    font-style: italic;
+    font-style:verdana;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .answer {
-    margin: 4.5% 25%;
+   /* margin: 4.5% 25%; */
     font-style: verdana;
     font-size: 172%;
     align-items: center;
